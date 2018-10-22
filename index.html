@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>the do</title>
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+<link href='normalize.css' rel='stylesheet'>
+<link href='thedo.css' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li id='read'>read</li>
+      <li id='explore'>explore</li>
+      <li id='ask'>ask</li>
+        <div id='ask-modal' class='modal'>
+          <div id='glossary' class='glossary'>
+              <span id='glossaryLabel'><label for='searchTerm'>what is your curiousity, logos?</label></span>
+              <input id='searchTerm' autocomplete="off" type='text'>
+              <p id='definition'></p>
+          </div>
+        </div>
+    </ul>
+  </nav>
+</header>
+<main id='base'>
+  <div class='titlePage'>
+    <img src='IMG/queen2.jpg' id="top" alt='queen symbol'>
+    <div class='banner'>
+      <div class='title'>
+        <h1 class='clearfix'>Whatchudo<span>?</span></h1>
+      </div>
+      <p id='empty p'></p>
+    </div>
+    <p id='sig'>[ Primal Discord ]</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2018 Primal Discord</p>
+    <div class='spotify'><iframe src="https://open.spotify.com/embed/user/luke.ryan/playlist/2iHxlcq5PIxHWLM02qxoIH" width="240" height="80" frameborder="" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  </footer>
+</main>
+
+<script src='thedo.js'></script>
+</body>
+
+</html>
